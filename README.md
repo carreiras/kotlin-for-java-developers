@@ -2,7 +2,6 @@
 
 ## #1. Tipos de variáveis - Inferência de tipos
 
-
 Kotlin consegue criar variáveis por inferência, bastando pra isso, informar o conteudo da mesma.
     
     val myPhraser = "I'm a String"
@@ -42,3 +41,29 @@ O Kotlin, diferente do Java, exige que as conversões sejam explicitas!!! (mesmo
 
     val anInt: Int = 7
     val aLong: Long = anInt.toLong()
+
+
+## #2. Comentários em Kotlin 
+
+Comentários em Kotlin são similares aos comentários em Java.
+        
+    // Comentário de fim de linha
+    val myPhraser = "I'm a String" // Isto também é um comentário de fim de linha
+
+    /*
+    Comentário em bloco
+        
+    val aString: String
+    val aDouble: Double
+    val aInt: Int
+    */
+
+O Kotlin permite fazer comentários em bloco aninhados
+
+    /*
+    fun fooBar() {
+        /*
+        eu sou um comentário incorporado
+        */
+    }
+    */
