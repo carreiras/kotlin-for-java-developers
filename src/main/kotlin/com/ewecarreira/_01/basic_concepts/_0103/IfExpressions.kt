@@ -36,6 +36,6 @@ fun main() {
     /********************************************
     IMPORTANTE:
 
-    O If também pode ser utilizado da forma convensional, ou seja, como uma estrutura de decisão
+    O If também pode ser utilizado da forma convencional, ou seja, como uma estrutura de decisão
      */
 }
