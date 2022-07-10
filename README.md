@@ -145,3 +145,65 @@ Também é possível comparar o argumento com ranges
         else -> println("Are you sure?")
     }
 
+- Sem argumentos
+
+Neste caso, o When é um substitudo do if... if else...
+Temos a funcionalidade do if else, de forma mais compacta
+
+    when {
+        pizzasOrdered <= 0 -> println("None ordered")
+        pizzasOrdered % 2 == 1 -> println("Odd number ordered")
+        pizzasOrdered % 2 == 0 -> println("Even number ordered")
+    }
+
+# While e For Expressions
+- While / Do While
+
+While e Do While, se comportam exatamente como no Java
+
+    var x = 0
+    while (x < 10) {
+        println("x = $x")
+        x += 3
+    }
+
+    do {
+        println("x = $x")
+        x -= 3
+    } while (x > 0)
+
+- For
+- 
+Um loop for clássico contém:
+
+1. Inicializador do loop
+2. Verificador do loop
+3. Iterador do loop
+4. Instruções do loop
+ 
+
+    for(int i-0; i<10; i++) {
+        // Instruções do loop
+    }
+
+Não há foreach no Kotlin. 
+
+A instrução for do Kotlin, funciona com qualquer interador
+
+    for (item in 1..10) {
+        print("$item, ")
+    }
+
+    for (ch in "Iterando sobre Strings") {
+        println(ch)
+    }
+
+Os pontos chaves do for, no Kotlin, são:
+1. O valor da iteração: item;
+2. O iterador: 1 .. 10 e 
+3. O corpo do for
+
+# IMPORTANTE: 
+A variável $item no for é um tipo de valor imutável, ou seja, internamente é um val.
+
+Portanto, ao tentar modificá-lo (por exemplo, com item++), o compilador irá reportar um erro
