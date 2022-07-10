@@ -1,6 +1,6 @@
-# kotlin-for-java-developers
+# Kotlin para Java developers
 
-## #1. Tipos de variáveis - Inferência de tipos
+## Tipos de variáveis - Inferência de tipos
 
 Kotlin consegue criar variáveis por inferência, bastando pra isso, informar o conteudo da mesma.
     
@@ -43,7 +43,7 @@ O Kotlin, diferente do Java, exige que as conversões sejam explicitas!!! (mesmo
     val aLong: Long = anInt.toLong()
 
 
-## #2. Comentários em Kotlin 
+## Comentários em Kotlin 
 
 Comentários em Kotlin são similares aos comentários em Java.
         
@@ -68,7 +68,7 @@ O Kotlin permite fazer comentários em bloco aninhados
     }
     */
 
-## #3. Expressão If
+## Expressão If
 
 - Em Kotlin, If é uma expressão e não uma instrução;
 - É a maneira mais básica de controlar um fluxo em Kotlin;
@@ -99,7 +99,7 @@ Outro exemplo:
 # IMPORTANTE:
 O If também pode ser utilizado da forma convencional, ou seja, como uma estrutura de decisão
 
-# 4. Expressão When
+# Expressão When
 
 No Kotlin, a Expressão When substitui o Switch, e apresenta duas formas:
 
@@ -156,7 +156,7 @@ Temos a funcionalidade do if else, de forma mais compacta
         pizzasOrdered % 2 == 0 -> println("Even number ordered")
     }
 
-# While e For Expressions
+# While e Expressão For Expressions
 - While / Do While
 
 While e Do While, se comportam exatamente como no Java
