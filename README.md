@@ -323,7 +323,6 @@ Quando uma função tem apenas uma linha, a mesma pode ser simplificada com Expr
 
 ```
 fun myExpressionBodyFunction(number1: Int, number2: Int): Int = number1 + number2
-
 ```
 E pode ser simplificado ainda mais, utilizando a inferência de dados.
 
