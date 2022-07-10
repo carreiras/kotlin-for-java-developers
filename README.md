@@ -165,7 +165,8 @@ Temos a funcionalidade do if else, de forma mais compacta
         pizzasOrdered % 2 == 0 -> println("Even number ordered")
     }
 
-# While e Expressão For Expressions
+## While e Expressão For Expressions
+
 - While / Do While
 
 While e Do While, se comportam exatamente como no Java
