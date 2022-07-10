@@ -213,3 +213,31 @@ Os pontos chaves do for, no Kotlin, são:
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A  variável $item no for é um tipo de valor imutável, ou seja, internamente é um val. Portanto, ao tentar modificá-lo (por exemplo, com item++), o compilador irá reportar um erro                                          |
 
+## Expressões for com arrays
+
+Iterando com um range e capturando o índice
+
+    println()
+
+    var index = 0
+    for (item in 10.rangeTo(20).step(2)) {
+        println("${++index} -> $item")
+    }
+
+Iterando com um range e capturando o índice sem a necessidade de criar uma variável
+
+    println()
+
+    for ((ind, item) in 10.rangeTo(20).step(2).withIndex()) {
+        println("${ind + 1} -> $item")
+    }
+
+Iterando com um array
+
+    println()
+
+    val myArray = arrayOf(10, 20, 30, 40, 50)
+
+    for (item in myArray.indices) {
+        println("At index $item is ${myArray[item]}")
+    }
