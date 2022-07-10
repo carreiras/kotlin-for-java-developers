@@ -2,7 +2,7 @@ package com.ewecarreira._01.basic_concepts._0101
 
 fun main() {
 
-    // Klotin consegue criar variáveis por inferência, bastando pra isso, informar o conteudo da mesma.
+    // Klotin consegue criar variáveis por inferência, bastando para isso, informar o conteúdo da mesma.
     val myPhraser = "I'm a String"
     val myPI = 3.14
     val myAnswer = 47
@@ -23,7 +23,7 @@ fun main() {
     // Tipos Short devem ser explicamente informados.
     val myShort: Short = 12
 
-    // Tipos Devem devem ser explicamente informados.
+    // Tipos Byte devem ser explicamente informados.
     val myByte: Byte = -128
 
     // Pode ser utilizado "_" para tornar variáveis numéricas mais legiveis.
