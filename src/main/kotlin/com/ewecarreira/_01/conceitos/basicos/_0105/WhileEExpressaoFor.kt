@@ -1,4 +1,4 @@
-package com.ewecarreira._01.conceitos_basicos._0105
+package com.ewecarreira._01.conceitos.basicos._0105
 
 fun main() {
     // 1. While / Do While

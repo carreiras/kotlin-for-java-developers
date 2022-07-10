@@ -1,4 +1,4 @@
-package com.ewecarreira._01.conceitos_basicos._0106
+package com.ewecarreira._01.conceitos.basicos._0106
 
 fun main() {
     // Iterando com um range e capturando o índice

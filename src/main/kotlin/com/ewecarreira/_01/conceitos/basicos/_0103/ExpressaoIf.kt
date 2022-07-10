@@ -1,4 +1,4 @@
-package com.ewecarreira._01.conceitos_basicos._0103
+package com.ewecarreira._01.conceitos.basicos._0103
 
 fun main() {
 
