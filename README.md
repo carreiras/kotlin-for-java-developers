@@ -362,3 +362,21 @@ fun main() {
     println("Default sum informing only one of the parameters = ${myFunctionWithDefault(message = "Hello")}")
 }
 ```
+
+## Pacotes em Kotlin
+
+A declaração de pacotes em Kotlin é opcional, porém, se for declarada, deve ser feita na primeira linha do arquivo
+
+```
+fun main() {
+    println("Declaring packages in Kotlin is optional, however, if declared, it must be done on the first line of the file")
+}
+```
+
+```
+package com.ewecarreira._01.conceitos.basicos._0108
+
+fun main() {
+    println("Declaring packages in Kotlin is optional, however, if declared, it must be done on the first line of the file")
+}
+```
