@@ -165,7 +165,7 @@ Temos a funcionalidade do if else, de forma mais compacta
         pizzasOrdered % 2 == 0 -> println("Even number ordered")
     }
 
-## While e Expressão For Expressions
+## While e Expressão For
 
 - While / Do While
 
@@ -213,7 +213,7 @@ Os pontos chaves do for, no Kotlin, são:
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A  variável $item no for é um tipo de valor imutável, ou seja, internamente é um val. Portanto, ao tentar modificá-lo (por exemplo, com item++), o compilador irá reportar um erro                                          |
 
-## Expressões for com arrays
+## Expressões For com arrays
 
 Iterando com um range e capturando o índice
 
