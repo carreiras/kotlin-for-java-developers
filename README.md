@@ -104,7 +104,7 @@ Para contatenar variáveis no Kotlin, basta informar a variavel precedida de $
 | O If também pode ser utilizado da forma convencional, ou seja, como uma estrutura de decisão|
 
 
-# Expressão When
+## Expressão When
 
 No Kotlin, a Expressão When substitui o Switch, e apresenta duas formas:
 
