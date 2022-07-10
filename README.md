@@ -318,7 +318,6 @@ Observe a sintaxe mais enxuta e menos verbosa do Kotlin
 fun myMathFunction(number1: Int, number2: Int): Int {
    return number1 + number2
 }
-
 ```
 Quando uma função tem apenas uma linha, a mesma pode ser simplificada com Expression Body, como a seguir:
 
