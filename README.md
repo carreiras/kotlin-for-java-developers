@@ -302,7 +302,7 @@ public Integer myMathFunction(Integer number1, Integer number2) {// conteudo}
 A assinatura de mesma função/método em Kotlin, seria:
 
 ```
-fun myMathFunction(number1: Int, number2: Int): Int
+fun myMathFunction(number1: Int, number2: Int): Int {// conteúdo}
 ```
 
 Onde:
@@ -334,7 +334,7 @@ Uma vez que os dois parametros são do tipo Int, o Kotlin irá inferir o retorno
 fun myExpressionBodyFunctionWithInference(number1: Int, number2: Int) = number1 + number2
 ```
 
-Também é possível configurar valores-padrão para os parametros. Isto evita bastante o uso de sobrecarga de métodos que utilizamos em Java
+Também é possível configurar valores-padrão para os parâmetros. Isto evita bastante o uso de sobrecarga de métodos que utilizamos em Java
 
 ```
 fun myFunctionWithDefault(number1: Int = 1, number2: Int = 5, message: String = "Hi"): Int {
@@ -344,7 +344,7 @@ fun myFunctionWithDefault(number1: Int = 1, number2: Int = 5, message: String = 
 }
 ```
 
-Utilizando a função main para executar os metodos declarados:
+Utilizando a função main para executar os métodos declarados:
 
 ```
 fun main() {

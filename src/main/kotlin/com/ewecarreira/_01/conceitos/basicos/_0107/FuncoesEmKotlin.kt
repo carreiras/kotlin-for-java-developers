@@ -11,7 +11,7 @@ A assinatura do um método, em Java, seria escrito da seguinte forma:
 public Integer myMathFunction(Integer number1, Integer number2) {// conteudo}
 
 A assinatura da mesma função/método em Kotlin:
-fun myMathFunction(number1: Int, number2: Int): Int
+fun myMathFunction(number1: Int, number2: Int): Int {// conteudo}
 
 Onde:
 fun -> palavra chave para a criação da função
@@ -39,7 +39,7 @@ Uma vez que os dois parametros são do tipo Int, o Kotlin irá inferir o retorno
 fun myExpressionBodyFunctionWithInference(number1: Int, number2: Int) = number1 + number2
 
 /*
-Também é possível configurar valores-padrão para os parametros.
+Também é possível configurar valores-padrão para os parâmetros.
 Isto evita bastante o uso de sobrecarga de métodos que utilizamos em Java
  */
 fun myFunctionWithDefault(number1: Int = 1, number2: Int = 5, message: String = "Hi"): Int {
@@ -49,7 +49,7 @@ fun myFunctionWithDefault(number1: Int = 1, number2: Int = 5, message: String = 
 }
 
 /*
-Utilizando a função main para executar os metodos declarados:
+Utilizando a função main para executar os métodos declarados:
  */
 fun main() {
     println("10 + 20 = ${myMathFunction(10, 20)}")
