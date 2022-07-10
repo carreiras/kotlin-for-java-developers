@@ -378,3 +378,7 @@ fun main() {
     println("Declaring packages in Kotlin is optional, however, if declared, it must be done on the first line of the file")
 }
 ```
+
+| IMPORTANTE                                                                                                            |       
+|-----------------------------------------------------------------------------------------------------------------------|
+| Caso o código tenha a necessidade de ser interoperável como Java, é necessário a utilização da declaração dos pacotes |
