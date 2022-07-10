@@ -106,6 +106,7 @@ O If também pode ser utilizado da forma convencional, ou seja, como uma estrutu
 No Kotlin, a Expressão When substitui o Switch, e apresenta duas formas:
 
 - Com argumento
+ 
 
 
     val pizzaOrdered = 2
@@ -129,6 +130,7 @@ No Kotlin, a Expressão When substitui o Switch, e apresenta duas formas:
         3 -> println("Very hungry")
         else -> println("Are you sure?")
     }
+
 
 A expressão When não está limitada a simplesmente comparar com constantes (como em Switch).
 Também é possível comparar o argumento com o resultado de uma expressão
