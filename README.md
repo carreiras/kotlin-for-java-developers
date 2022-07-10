@@ -382,3 +382,16 @@ fun main() {
 | IMPORTANTE                                                                                                            |       
 |-----------------------------------------------------------------------------------------------------------------------|
 | Caso o código tenha a necessidade de ser interoperável como Java, é necessário a utilização da declaração dos pacotes |
+
+Para importações de pacotes, o Kotlin já importa automaticamente:
+
+- kotlin.*
+- kotlin.annotation.*
+- kotlin.collections.*
+- kotlin.comparisions.*
+- kotlin.io.*
+- kotlin.ranges.*
+- kotlin.sequences.*
+- kotlin.text.*
+- kotlin.lang.*
+- kotlin.jvm.*
