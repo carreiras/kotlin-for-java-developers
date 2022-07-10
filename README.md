@@ -98,8 +98,11 @@ Outro exemplo:
 
 Para contatenar variáveis no Kotlin, basta informar a variavel precedida de $ 
 
-# IMPORTANTE:
-O If também pode ser utilizado da forma convencional, ou seja, como uma estrutura de decisão
+
+|IMPORTANTE:                                                                                  | 
+|---------------------------------------------------------------------------------------------|
+| O If também pode ser utilizado da forma convencional, ou seja, como uma estrutura de decisão|
+
 
 # Expressão When
 
@@ -153,7 +156,7 @@ Também é possível comparar o argumento com ranges
 
 - Sem argumentos
 
-Neste caso, o When é um substitudo do if... if else...
+Neste caso, o When é um substituto do if... if else...
 Temos a funcionalidade do if else, de forma mais compacta
 
     when {
@@ -179,22 +182,18 @@ While e Do While, se comportam exatamente como no Java
     } while (x > 0)
 
 - For
-- 
+
 Um loop for clássico contém:
 
 1. Inicializador do loop
 2. Verificador do loop
 3. Iterador do loop
 4. Instruções do loop
- 
 
-    for(int i-0; i<10; i++) {
-        // Instruções do loop
-    }
+   for(int i-0; i<10; i++) {// Instruções do loop}
 
-Não há foreach no Kotlin. 
 
-A instrução for do Kotlin, funciona com qualquer interador
+A instrução for do Kotlin, funciona com qualquer interador, não existindo, portanto, o forEach
 
     for (item in 1..10) {
         print("$item, ")
@@ -209,7 +208,7 @@ Os pontos chaves do for, no Kotlin, são:
 2. O iterador: 1 .. 10 e 
 3. O corpo do for
 
-# IMPORTANTE: 
-A variável $item no for é um tipo de valor imutável, ou seja, internamente é um val.
+| IMPORTANTE                                                                                                                                                                                                                  |       
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| A  variável $item no for é um tipo de valor imutável, ou seja, internamente é um val. Portanto, ao tentar modificá-lo (por exemplo, com item++), o compilador irá reportar um erro                                          |
 
-Portanto, ao tentar modificá-lo (por exemplo, com item++), o compilador irá reportar um erro

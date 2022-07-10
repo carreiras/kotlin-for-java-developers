@@ -24,11 +24,9 @@ fun main() {
     3 - Iterador do loop
     4 - Instruções do loop
 
-    for(int i-0; i<10; i++) {
-        // Instruções do loop
-    }
+    for(int i-0; i<10; i++) {// Instruções do loop}
 
-    Não há foreach no Kotlin. A instrução for do Kotlin, funciona com qualquer interador
+    A instrução for do Kotlin, funciona com qualquer interador, não existindo, portanto, o forEach
      */
 
     for (item in 1..10) {
