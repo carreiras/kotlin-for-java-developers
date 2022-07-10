@@ -1,4 +1,4 @@
-package com.ewecarreira._01.basic_concepts._0105
+package com.ewecarreira._01.conceitos_basicos._0105
 
 fun main() {
     // 1. While / Do While
@@ -33,7 +33,7 @@ fun main() {
         print("$item, ")
     }
 
-    for (ch in "Iterando sobre Strings") {
+    for (ch in "Iterating over Strings") {
         print(ch)
     }
 

@@ -1,9 +1,9 @@
-package com.ewecarreira._01.basic_concepts._0101
+package com.ewecarreira._01.conceitos_basicos._0101
 
 fun main() {
 
     // Klotin consegue criar variáveis por inferência, bastando para isso, informar o conteúdo da mesma.
-    val myPhraser = "I'm a String"
+    val myPhraser = "I'm a Stringg"
     val myPI = 3.14
     val myAnswer = 47
     val myDouble = 1.999

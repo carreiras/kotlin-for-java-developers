@@ -200,7 +200,7 @@ A instrução for do Kotlin, funciona com qualquer interador, não existindo, po
         print("$item, ")
     }
 
-    for (ch in "Iterando sobre Strings") {
+    for (ch in "Iterating over Strings") {
         println(ch)
     }
 

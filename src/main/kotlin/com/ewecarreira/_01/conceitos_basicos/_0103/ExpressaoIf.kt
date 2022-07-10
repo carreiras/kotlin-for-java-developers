@@ -1,24 +1,22 @@
-package com.ewecarreira._01.basic_concepts._0103
+package com.ewecarreira._01.conceitos_basicos._0103
 
 fun main() {
 
-/*
-
+    /*
     Em Kotlin, IF é uma expressão e não uma instrução;
     É a maneira mais básica de controlar um fluxo em Kotlin;
     O valor de retorno é o valor da última expressão;
     Declaração ternária é desnecessária;
 
- */
 
-
-//    Ao utilizar o if como expressão, é obrigatória a clausula "else"
+    Ao utilizar o if como expressão, é obrigatória a clausula "else"
+    */
 
     val myInt = 199
     val aInt: Int = 7
     val lowest = if (myInt < aInt) myInt else aInt
 
-//    Outro Exemplo
+    // Outro Exemplo
 
     val temp = 26
     val isAirConditionerOn = if (temp >= 26) {
