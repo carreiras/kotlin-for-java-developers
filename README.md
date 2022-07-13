@@ -1,5 +1,23 @@
 # Kotlin para desenvolvedores Java
 
+# Objetivo
+Este material tem como objetivo, diminuir a curva de aprendizado em Kotlin, com foco em desenvolvedores que já tenham vivência em Java.
+
+Kotlin é uma linguagem de programação multiplataforma, orientada a objetos e funcional, concisa e estaticamente tipada (variáveis com tipos específicos), desenvolvida pela JetBrains em 2011, que compila para a Máquina virtual Java e que também pode ser traduzida para a linguagem JavaScript e compilada para código nativo. Foi anunciada em 2017 pela Google como a linguagem oficial do sistema Android.
+
+A versão da JVM (Java Virtual Machine) de sua biblioteca padrão depende da Java Class Library, mas a inferência de tipos permite que sua sintaxe seja mais concisa. Apesar de possuir uma sintaxe mais concisa e um pouco diferente da linguagem Java, Kotlin é projetada para ter uma interoperabilidade total com código Java, agilizando assim a sua adoção.
+
+Foi considerada pelo público a 2ª linguagem "mais amada", de acordo com uma pesquisa conduzida pelo site Stack Overflow em 2018.
+
+# Design
+
+- Os ponto-e-vírgulas são opcionais como um terminador de instrução; na maioria dos casos, uma nova linha é suficiente para o compilador deduzir que a instrução terminou.
+- Declarações de variáveis do Kotlin e listas de parâmetros têm o tipo de dados vindo depois do nome da variável (e com um separador de dois-pontos), semelhante ao Pascal.
+- Variáveis no Kotlin podem ser imutáveis, declaradas com a palavra-chave val, ou mutáveis, declaradas com a palavra-chave var.
+- Os membros da classe são públicos por padrão e as próprias classes são finais por padrão, o que significa que a criação de uma classe derivada é desativada, a menos que a classe base seja declarada com a palavra-chave aberta.
+- Além das classes e métodos (chamadas de funções-membro em Kotlin) de programação orientada a objetos, Kotlin também suporta programação procedural com o uso de funções.
+- As funções e construtores da linguagem suportam argumentos padrão, listas de argumentos de tamanho variável, argumentos nomeados e sobrecarga por assinatura única.
+
 # Conceitos básicos
 
 ## Tipos de variáveis - Inferência de tipos
