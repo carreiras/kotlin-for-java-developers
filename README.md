@@ -528,3 +528,49 @@ object MySigleton {
     fun getLastTemprature() = temperatures.last()
 }
 ```
+
+## Interfaces em Kotlin
+
+Interfaces em Kotlin, são semelhantes à Java.
+Ambas contem declarações para implementações de métodos que também são semelhantes às classes abstratas,
+mas, diferentemente das clases abstratas, as interfaces não podem armazenar o estado.
+
+O kotlin permite criar funções na interface que vão funcionar de forma similar à herança.
+
+Na interface definida abaixo, os métodos start, stop e getKmPerLiter, serão herdados, pois eles contém um corpo. 
+Já o método getDoors, precisará ser sobrescrito.                                              
+
+```
+interface Vehicle {
+
+    val autoMakerName: String
+
+    fun start() {
+        println("Vruuuuuuummmmmmmmmmmmmmm")
+    }
+
+    fun stop() {
+        println("Brake noise")
+    }
+
+    fun getKmPerLiter(): Int {
+        return 17
+    }
+
+    fun getDoors(): Int
+}
+```
+
+Executando:
+
+```
+fun main() {
+
+    val myCar = Car()
+
+    myCar.start()
+
+    println("My Car´s make = ${myCar.autoMakerName}" )
+}
+````
+
