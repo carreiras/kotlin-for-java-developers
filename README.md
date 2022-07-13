@@ -1,5 +1,7 @@
 # Kotlin para desenvolvedores Java
 
+# Conceitos básicos
+
 ## Tipos de variáveis - Inferência de tipos
 
 Kotlin consegue criar variáveis por inferência, bastando para isso, informar o conteúdo da mesma.
@@ -395,3 +397,65 @@ Para importações de pacotes, o Kotlin já importa automaticamente:
 - kotlin.text.*
 - kotlin.lang.*
 - kotlin.jvm.*
+
+
+# Programação Orientada a Objetos
+
+A criação de objetos no Kotlin, tem grandes diferenças em relação ao Java.
+
+Pode-se criar objetos dentro de uma função, ou separadamente no mesmo arquivo, e o mesmo objeto também pode ser criado separamente em outro arquivo.
+
+No Kotlin, diferentemente do Java, podemos definir mais de uma classe por arquivo (isso sem ser innerclass).
+Por padrão, as classes são públicas, o que é o oposto do Java.
+
+Uma classe pode ter um construtor primário e vários construtores secundários
+
+Para criar um construtor primário utiliza-se a palavara-chave **constructor**, porém, esta palavra também pode ser omitida, simplificando assim a sintaxe.
+
+A palavra-chave **constructor** só é realmente necessária, se o construtor tiver uma notação, ou um modificador de visibilidade. E dentro do construtor primário não pode haver nenhuma implementação ou código, porém, caso seja necessário efetuar algo assim que a classe for inicializada, utiliza-se a palavra-chave **init**.
+
+| IMPORTANTE                                                                                                     |       
+|----------------------------------------------------------------------------------------------------------------|
+| Em Kotlin, a palavra-chave **new**, não é necessária. |
+| E **enums**, é apenas uma palavra-chave, que só tem significado quando é seguida pela palavra chave **class**. |
+
+**Classes.kt**
+```
+fun main() {
+    var person1 = Person1("Moon", "Knight")
+    var person2 = Person2("Mark", "Spector")
+}
+```
+
+**Person.kt**
+
+Exemplo sem a palavra-chave "constructor"
+
+```
+class Person1 (firstName: String, lastName: String) {
+
+    init {
+        println("Create a person1 named $firstName $lastName")
+    }
+}
+```
+
+Exemplo com a palavra-chave "constructor", devido a altaração da visilibidade.
+Este exemplo também possui um construtor secundário.
+
+Construtores secundários, são utilizados, assim como em Java, para instanciar a classe com atributos diferentes do construtor primário.
+Para utilizar construtores secundário, os mesmos devem referenciar o construtor primario através da palavra-chave this
+
+```
+class Person2 internal constructor(firstName: String, lastName: String) {
+
+    init {
+        println("Create a person2 named $firstName $lastName")
+    }
+
+    constructor(firstName: String, lastName: String, middleName: String) : this(firstName, lastName)
+}
+```
+
+
+
