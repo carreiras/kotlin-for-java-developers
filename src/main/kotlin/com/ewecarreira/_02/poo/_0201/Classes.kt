@@ -1,11 +1,6 @@
 package com.ewecarreira._02.poo._0201
 
 /*
-A criação de objetos no Kotlin, tem grandes diferenças em relação ao Java.
-
-Pode-se criar objetos dentro de uma função, ou separadamente no mesmo arquivo,
-e o mesmo objeto também pode ser criado separamente em outro arquivo.
-
 No Kotlin, diferentemente do Java, podemos definir mais de uma classe por arquivo (isso sem ser innerclass).
 Por padrão, as classes são públicas, o que é o oposto do Java.
 

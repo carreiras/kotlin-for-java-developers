@@ -401,9 +401,7 @@ Para importações de pacotes, o Kotlin já importa automaticamente:
 
 # Programação Orientada a Objetos
 
-A criação de objetos no Kotlin, tem grandes diferenças em relação ao Java.
-
-Pode-se criar objetos dentro de uma função, ou separadamente no mesmo arquivo, e o mesmo objeto também pode ser criado separamente em outro arquivo.
+## Classes
 
 No Kotlin, diferentemente do Java, podemos definir mais de uma classe por arquivo (isso sem ser innerclass).
 Por padrão, as classes são públicas, o que é o oposto do Java.
@@ -456,6 +454,11 @@ class Person2 internal constructor(firstName: String, lastName: String) {
     constructor(firstName: String, lastName: String, middleName: String) : this(firstName, lastName)
 }
 ```
+## Objetos
+
+A criação de objetos no Kotlin, tem grandes diferenças em relação ao Java.
+
+Pode-se criar objetos dentro de uma função, ou separadamente no mesmo arquivo, e o mesmo objeto também pode ser criado separamente em outro arquivo.
 
 
 
