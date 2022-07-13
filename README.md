@@ -591,4 +591,36 @@ fun main() {
     println("My Car´s make = ${myCar.autoMakerName}" )
 }
 ````
+## Generics
 
+Sabemos que Generic em Java, é uma maneira de criar uma classe ou um método que pode funcionar com diferentes tipos de dados similares.
+
+Generics em Kotlin são semelhantes aos de Java porém, mais fáceis de trabalhar
+
+**Max.kt:**
+
+```
+fun <T: Comparable<T>> max(param1: T, param2: T) : T {
+val result = param1.compareTo(param2)
+
+    return if (result > 0) param1 else param1
+}
+```
+
+Executando:
+
+```
+fun main() {
+
+    val maxInt: Int = max(42, 99)
+    val maxLong: Long = max(123_456_789L, 999_999_999L)
+    val maxByte: Byte = max((-128).toByte(), (127).toByte())
+    val maxString: String = max("Alpha", "Omega")
+
+    println("The max Int: $maxInt")
+    println("The max Long: $maxLong")
+    println("The max Byte: $maxByte")
+    println("The max String: $maxString")
+
+}
+```
