@@ -1,12 +1,18 @@
 package com.ewecarreira._02.poo._0203
 
-/*
-O kotlin permite criar funções na interface que vão funcionar de forma similar à herança.
+/* -----------------------------------------------------------------|
+| O kotlin permite criar funções na interface que vão funcionar de  |
+| forma similar à herança.                                          |
+|----------------------------------------------------------------- */
 
-IMPORTANTE:
-Os métodos start, stop e getKmPerLiter, serão herdados, pois na interface, eles contém um corpo.
-Já o método getDoors, precisará ser sobrescrito.
- */
+/* -----------------------------------------------------------------|
+| IMPORTANTE:                                                       |
+| Os métodos start, stop e getKmPerLiter, serão herdados, pois na   |
+| interface, eles contém um corpo.                                  |
+|                                                                   |
+| Já o método getDoors, precisará ser sobrescrito.                  |
+|----------------------------------------------------------------- */
+
 interface Vehicle {
 
     val autoMakerName: String
